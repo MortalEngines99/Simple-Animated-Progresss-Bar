@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Animated Progress Bar</title>
+
+    <!-- Anime.js 3.2.0 CDN -->
+    <!-- Check it out https://animejs.com/ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js" integrity="sha256-hBMojZuWKocCflyaG8T19KBq9OlTlK39CTxb8AUWKhY=" crossorigin="anonymous"></script>
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Custom Script -->
+    <script src="./js/main.js" defer></script>
+</head>
+<body>
+    
+    <h2>Simple Animated Progress Bar</h2>
+
+    <div class="progress-bar">
+        <div class="progress" id="progress">20%</div>
+    </div>
+    
+    <input type="range" name="progress-range" id="progress-range-input" min="0" max="100" value="20">
+
+</body>
+</html>
